@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# prints 'Best school' 10 times with while loop
+
+loopCount=1
+while [[ loopCount -le 10 ]]; do
+	echo "Best School"
+	((loopCount++))
+done
+

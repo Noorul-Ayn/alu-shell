@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# displays contenet of the cur directory in list format
+
+for eachFile in *; do
+	echo "$eachFile" | cut -d "-" -f2-
+done
