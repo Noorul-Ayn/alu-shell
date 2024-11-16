@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# displays PID of lines containing bash
+
+ps -axuf | grep bash
